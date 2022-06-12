@@ -56,7 +56,7 @@ const Works = () => {
           return (
             <div
               key={i}
-              className="flex flex-row lg:flex-col lg:justify-center items-center gap-4 md:gap-16 lg:gap-0"
+              className="flex flex-row lg:flex-col lg:justify-center  gap-4 md:gap-16 lg:gap-0"
             >
               <div
                 className="w-10 md:w-20 h-10 md:h-20 flex justify-center items-center rounded-lg md:rounded-3xl relative"
@@ -80,7 +80,7 @@ const Works = () => {
                   <span className="absolute  xs:block -bottom-[112px] lg:bottom-auto right-auto lg:-right-10 w-3 h-3 rounded-full border border-gray-400"></span>
                 )}
               </div>
-              <div className="w-10/12 lg:w-full lg:pt-20 flex flex-row items-center lg:flex-col gap-4 md:gap-16 lg:gap-0">
+              <div className="w-10/12 lg:w-full lg:pt-20 flex flex-row md:items-baseline lg:items-center xl:items-center 2xl:items-center lg:flex-col gap-4 md:gap-16 lg:gap-0">
                 <div className="w-4/12 sm:w-3/12 lg:w-full text-center">
                   <span className="text-sm md:text-base font-semibold">
                     Step {step}

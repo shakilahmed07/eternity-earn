@@ -24,6 +24,10 @@ a {
   text-decoration: none;
 }
 
+/* .items-center {
+  align-items: normal !important;
+} */
+
 
 .swiper-wrapper{
   @apply pb-6;
