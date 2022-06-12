@@ -50,7 +50,7 @@ const Works = () => {
           Eternity Earn is a $CRO miner rewards pool build on the Cronos Chain, the native blockchanin of Crypto.com. When $CRO is deposited and locked into the decentralized application (Dapp). you will begin earning real-time rewards, up to 8% daily, in the form of $CRO that you can compound (reinvest) or claim (withdraw). There in no secondary token to purchase or stake, making Eternity Earn a sample way to participate in crypto DeFi.
         </p>
       </div>
-      <div className="py-20 flex flex-col lg:flex-row justify-between items-start gap-24 lg:gap-10">
+      <div className="py-20 flex flex-col lg:flex-row justify-between items-start gap-20 lg:gap-10">
         {dataArr.map((data, i) => {
           const { ico, icoBoxColor, step, title, paragraph } = data;
           return (
@@ -73,11 +73,11 @@ const Works = () => {
                 )}
 
                 {i !== 3 && (
-                  <span className="absolute xs:block -bottom-[90px] sm:-bottom-[85px] md:-bottom-[90px] lg:bottom-auto lg:-right-[120px] xl:-right-44  lg:w-16 xl:w-28 h-4 sm:h-8 md:h-10 lg:h-1 border-l-4 lg:border-l-0 2xl:border-l-0 md:border-t border-dashed border-gray-400"></span>
+                  <span className="absolute xs:block -bottom-[86px] sm:-bottom-[85px] md:-bottom-[90px] lg:bottom-auto lg:-right-[120px] xl:-right-44  lg:w-16 xl:w-28 h-4 sm:h-8 md:h-10 lg:h-1 border-l-4 lg:border-l-0 2xl:border-l-0 md:border-t border-dashed border-gray-400"></span>
                 )}
 
                 {i !== 3 && (
-                  <span className="absolute  xs:block -bottom-[112px] lg:bottom-auto right-auto lg:-right-10 w-3 h-3 rounded-full border border-gray-400"></span>
+                  <span className="absolute  xs:block -bottom-[120px] lg:bottom-auto right-auto lg:-right-10 w-3 h-3 rounded-full border border-gray-400"></span>
                 )}
               </div>
               <div className="w-10/12 lg:w-full lg:pt-20 flex flex-row md:items-baseline lg:items-center xl:items-center 2xl:items-center lg:flex-col gap-4 md:gap-16 lg:gap-0">
