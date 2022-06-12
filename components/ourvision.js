@@ -7,10 +7,7 @@ const Ourvision = () => {
       <div className="space-y-4 sm:ml-[180px] lg:ml-[400px] xl:ml-[420px]">
         <h2 className="text-[45px] font-bold">Our Vision</h2>
         <p className="xl:pr-[150px]">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore
-          dignissimos modi, perspiciatis incidunt minus, quidem non sapiente
-          assumenda odit voluptatibus animi accusamus? Explicabo, cupiditate
-          dicta!
+          Our goal is to bring DeFI to the masses by streamling how users interact with the Dapp on mobile devices and expand the miner rewards pool application to other blockchains for increased liquidity and sustainablity.
         </p>
       </div>
     </div>

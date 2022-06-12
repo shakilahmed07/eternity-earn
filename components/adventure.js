@@ -12,8 +12,7 @@ const Adventure = () => {
           coffee.
         </h2>
         <p className="text-base sm:text-xl font-light text-center ">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam enim
-          iste harum laudantium optio ea?
+          There in no minimum invesment so deposit just a few $CRO and learn why Eternity Earn is different!
         </p>
       </div>
       <button className="bg-[#2A85FF] hover:text-[#000000] hover:bg-white hover:outline text-white px-[11px] py-[6px] lg:px-[12px] xl:px-[12px] lg:py-2 xl:py-2 rounded-md font-bold">

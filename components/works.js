@@ -20,7 +20,7 @@ const dataArr = [
     step: "2",
     title: "Deposit",
     paragraph:
-      "Purchase $CRO from Crypto.com and send it to a Cronos enabled MetaMask wallet. Or, use a cross-chain swap application to exchange other crypto for $CRO. Cronos currently supports MetaMask and Trust Wallet",
+      "Connect your MetaMask to Eternity Earn and deposit the desired ammount of $CRO. There is no minimum investment Deposits, minus a 5% fee are locked in the contract and are earned back through the daily $CRO rewards.",
   },
   {
     ico: workIco3,
@@ -28,7 +28,7 @@ const dataArr = [
     step: "3",
     title: "Compound",
     paragraph:
-      "Connect your MetaMask to Eternity earn and deposit the desire amount  of $CRO. There is no minimum investment. Deposits, minus a 5% fee are locked in the contract and earn back througr the daily $CRO rewards.",
+      "To graw the ammount of $CRO invested in the contract and maximize your daily ROI, you can compound (reinvest) your $CRO rewards earned. There is no limit to compunding but keep in mind the small gas fee paid for each transcation",
   },
   {
     ico: workIco4,
@@ -36,7 +36,7 @@ const dataArr = [
     step: "4",
     title: "Claim",
     paragraph:
-      "Purchase $CRO from Crypto.com and send it to a Cronos enabled MetaMask wallet. Or, use a cross-chain swap application to exchange other crypto for $CRO. Cronos currently supports MetaMask and Trust Wallet",
+      "Once per weekm or on a schedule that fits your invesment strategy, the daily $CRO rewards can be claimed (with-drawn) to your wallet, minus a 5% fee. Claiming to often (more than once per week) will reduce daily rewards.",
   },
 ];
 
@@ -47,9 +47,7 @@ const Works = () => {
       <div className="space-y-6">
         <h1 className="text-center text-xl font-bold">How it Works</h1>
         <p className="text-center text-lg 2xl:w-6/12 2xl:mx-auto">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa harum
-          autem atque cum odit officiis culpa reiciendis ab aliquam eum
-          molestias odio, sint unde qui corporis porro minus illo dolorum.
+          Eternity Earn is a $CRO miner rewards pool build on the Cronos Chain, the native blockchanin of Crypto.com. When $CRO is deposited and locked into the decentralized application (Dapp). you will begin earning real-time rewards, up to 8% daily, in the form of $CRO that you can compound (reinvest) or claim (withdraw). There in no secondary token to purchase or stake, making Eternity Earn a sample way to participate in crypto DeFi.
         </p>
       </div>
       <div className="py-20 flex flex-col lg:flex-row justify-between items-start gap-24 lg:gap-10">

@@ -13,21 +13,21 @@ const strategyData = [
     icon: claim,
     title: "6:1 Compound/Claim",
     description:
-      "lobortis elementum nibh tellus molestie nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae et leo duis ut diam",
+      "This is the lowest compund rate to maintain the maximum daily ROI of up to 8% and still get a weekly payout. When TVL is decreasing and the price of $CRO is decreasing, this schedule may not keep up with reward rate decay",
   },
   {
     id: 2,
     icon: Wallet,
     title: "13:1 Compound/Claim",
     description:
-      "leo a diam sollicitudin tempor id eu nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget felis eget nunc lobortis",
+      "This schedule allows a bi-monthly pay day while growing your $CRO invested in the contract at a higher rate. Schedules with a higher compound rate can overcome reward dacay and leapfrog other investors.",
   },
   {
     id: 3,
     icon: Gold,
     title: "29:1 Compound/Claim",
     description:
-      "iaculis nunc sed augue lacus viverra vitae congue eu consequat ac felis donec et odio pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus",
+      "Claiming only once per month is not for everone, however, smaller initial invest-ments benefit form aggessinve compounding all allowing their $CRO deposits to grow. This is a longer-term strategy with higher",
   },
 ];
 
@@ -47,12 +47,7 @@ const Strategy = () => {
             Strategy
           </h1>
           <p className="text-center w-10/12 sm:w-8/12 lg:w-6/12 mx-auto">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel maiores
-            necessitatibus tenetur excepturi voluptatibus ratione neque odio
-            perferendis saepe harum eveniet, earum numquam, nulla consequatur.
-            Magnam sapiente, et facere a explicabo error, at placeat enim odit
-            nemo, dicta adipisci maiores voluptatem doloribus mollitia atque
-            maxime? Neque repellat voluptatum rem hic.
+            Once $CRO deposit are locked in the Eternity Earn contract, users are ecouraged to compound their rewards sit days per week and then claim rewards on the seventy da (6:1). By following the recommended compound/claim schedule, the maximun daily rewards (up to 8%) can be achieved, allowing for a typical return on invesment within four to six weeks. All rewards are paid in $CRO tokens based on the total value locked (TVL) in the contract liquidity pool and activity during the day by other users of the system. The value of $CRO is also variable and can flucatuate with market conditions.
           </p>
         </div>
         <div className="py-[50px]">

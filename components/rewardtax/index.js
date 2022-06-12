@@ -11,28 +11,28 @@ const rewardData = [
     icon: Referrel,
     title: "Referral Rewards",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quibusdam sunt id velit quisquam laborum sapiente facilis eveniet et ducimus!",
+      "By reffering another investor, you'll receive 12% of their deposits and compounds, paid from the pool, not the investor.",
   },
   {
     id: 2,
     icon: Deposit,
     title: "Deposit Tax",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quibusdam sunt id velit quisquam laborum sapiente facilis eveniet et ducimus!",
+      "A 5% tax is paid on deposits of $CRO into contract. The tax is deposit into the Grand Reserve for development and marketing.",
   },
   {
     id: 3,
     icon: Compound,
     title: "Compound Tax",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quibusdam sunt id velit quisquam laborum sapiente facilis eveniet et ducimus!",
+      "There is no paid on compounding available $CRO rewards. A small gas fee is paid for each compound transaction.",
   },
   {
     id: 4,
     icon: Claim,
     title: "Claim Tax",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quibusdam sunt id velit quisquam laborum sapiente facilis eveniet et ducimus!",
+      "A 5% tax is paid on withdrawals of available $CRO rewards. The tax is deposit into the Grand Reserve for development and marketing.",
   },
 ];
 

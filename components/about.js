@@ -25,7 +25,7 @@ const About = () => {
             Contact
           </p>
           <p className="text-gray-500 text-sm xs:text-base sm:text-lg md:text-xl font-semibold">
-            example@gmail.com
+            EmailHere@gmail.com
           </p>
         </div>
       </div>

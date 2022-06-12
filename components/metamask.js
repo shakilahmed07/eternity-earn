@@ -14,8 +14,7 @@ const Metamask = () => {
           How to Add Cronos to MetaMask
         </h1>
         <p className="text-center py-4 text-[12px] sm:text-base lg:text-lg xl:text-xl">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br /> Dolor
-          non voluptate incidunt modi perferendis. Illo.
+          Before interacting with the Eternity Earn Dapp, you mush add the Cronos Chain to MetaMask or Trush Wallet. Below are instructions on how to add Cronos.
         </p>
       </div>
       <div className="flex items-center justify-center sm:space-x-8 space-x-4 my-[60px]">

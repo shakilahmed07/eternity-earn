@@ -14,8 +14,7 @@ const Compound = () => {
             Just Compound & Chill
           </h1>
           <p className="text-sm lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat sunt
-            magni mollitia doloribus, rerum nulla.
+            We make crypto passinve income easy through our simple Dapp user interface and proven invesment strategy.
           </p>
           <div className="space-y-1">
             <div className="flex items-center space-x-2">
