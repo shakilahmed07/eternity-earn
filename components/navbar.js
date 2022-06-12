@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="border-b-2 border-gray-100">
       <div className="max-w-7xl m-auto px-4 xl:px-0 flex items-center justify-between sm:justify-between  h-[100px]">
         <div className="flex items-center space-x-4">
-          <div>
+          <div className="cursor-pointer">
             <Image
               src={EternityLogo}
               alt="Eternity Earn"
@@ -22,10 +22,10 @@ const Navbar = () => {
           </div>
         </div>
         <div className="hidden lg:inline-flex xl:inline-flex lg:space-x-8 xl:space-x-10">
-          <p className="text-[#8A8C8E] font-semibold">About</p>
-          <p className="text-[#8A8C8E] font-semibold">Stratgy</p>
-          <p className="text-[#8A8C8E] font-semibold">Rewards & Taxes</p>
-          <p className="text-[#8A8C8E] font-semibold">Roadmap</p>
+          <p className="text-[#8A8C8E] font-semibold cursor-pointer">About</p>
+          <p className="text-[#8A8C8E] font-semibold cursor-pointer">Stratgy</p>
+          <p className="text-[#8A8C8E] font-semibold cursor-pointer">Rewards & Taxes</p>
+          <p className="text-[#8A8C8E] font-semibold cursor-pointer">Roadmap</p>
         </div>
         <div className="flex space-x-4 lg:space-x-8 xl:space-x-8">
           <button className="font-semibold text-[#000000]">Whitepaper</button>
