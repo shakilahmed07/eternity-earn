@@ -28,10 +28,10 @@ const Metamask = () => {
           />
           <AiOutlinePlus className="h-[35px] w-[35px] p-1 rounded-md text-[#9757D7] absolute bg-white" />
         </div>
-        <div className="flex items-center">
+        <div className="flex items-center justify-center">
           <Image src={circle} alt="" />
-          <Image src={line} alt="" style={{ marginLeft: 10 }} />
-          <Image src={circle} alt="" style={{ marginRight: 10 }} />
+          <Image src={line} alt="" />
+          <Image src={circle} alt=""  />
         </div>
         <div className="flex items-center justify-center">
           <Image
