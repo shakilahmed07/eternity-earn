@@ -47,10 +47,16 @@ const Works = () => {
       <div className="space-y-6">
         <h1 className="text-center text-xl font-bold">How it Works</h1>
         <p className="text-center text-lg 2xl:w-6/12 2xl:mx-auto">
-          Eternity Earn is a $CRO miner rewards pool build on the Cronos Chain, the native blockchanin of Crypto.com. When $CRO is deposited and locked into the decentralized application (Dapp). you will begin earning real-time rewards, up to 8% daily, in the form of $CRO that you can compound (reinvest) or claim (withdraw). There in no secondary token to purchase or stake, making Eternity Earn a sample way to participate in crypto DeFi.
+          Eternity Earn is a $CRO miner rewards pool build on the Cronos Chain,
+          the native blockchanin of Crypto.com. When $CRO is deposited and
+          locked into the decentralized application (Dapp). you will begin
+          earning real-time rewards, up to 8% daily, in the form of $CRO that
+          you can compound (reinvest) or claim (withdraw). There in no secondary
+          token to purchase or stake, making Eternity Earn a sample way to
+          participate in crypto DeFi.
         </p>
       </div>
-      <div className="py-20 flex flex-col lg:flex-row justify-between items-start gap-20 lg:gap-10">
+      <div className="py-20 flex flex-col lg:flex-row justify-between items-start gap-20 md:gap-28 lg:gap-10">
         {dataArr.map((data, i) => {
           const { ico, icoBoxColor, step, title, paragraph } = data;
           return (
