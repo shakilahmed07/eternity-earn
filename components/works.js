@@ -69,15 +69,15 @@ const Works = () => {
                   alt=""
                 />
                 {i !== 0 && (
-                  <span className="absolute xs:block -top-5 lg:top-auto left-auto lg:-left-10 w-3 h-3 rounded-full border border-gray-600"></span>
+                  <span className="absolute xs:block -top-5 lg:top-auto left-auto lg:-left-10 w-3 h-3 rounded-full border border-gray-400"></span>
                 )}
 
                 {i !== 3 && (
-                  <span className="absolute xs:block -bottom-32 sm:-bottom-24 md:-bottom-[4.5rem] lg:bottom-auto lg:-right-32 xl:-right-44  lg:w-16 xl:w-28 h-20 sm:h-12 md:h-10 lg:h-1 border-l lg:border-l-0 2xl:border-l-0 md:border-t border-dashed border-gray-600"></span>
+                  <span className="absolute xs:block -bottom-32 sm:-bottom-24 md:-bottom-[4.5rem] lg:bottom-auto lg:-right-32 xl:-right-44  lg:w-16 xl:w-28 h-20 sm:h-12 md:h-10 lg:h-1 border-l lg:border-l-0 2xl:border-l-0 md:border-t border-dashed border-gray-400"></span>
                 )}
 
                 {i !== 3 && (
-                  <span className="absolute  xs:block -bottom-5 lg:bottom-auto right-auto lg:-right-10 w-3 h-3 rounded-full border border-gray-600"></span>
+                  <span className="absolute  xs:block -bottom-5 lg:bottom-auto right-auto lg:-right-10 w-3 h-3 rounded-full border border-gray-400"></span>
                 )}
               </div>
               <div className="w-10/12 lg:w-full lg:pt-20 flex flex-row items-center lg:flex-col gap-4 md:gap-16 lg:gap-0">
