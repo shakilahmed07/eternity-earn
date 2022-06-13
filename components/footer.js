@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <section className="border-t-2 border-gray-100">
       <div className="max-w-7xl m-auto px-4 xl:px-0 flex items-center justify-between h-[100px]">
-        <p className="text-[10px] sm:text-[14px]">
+        <p className="text-[10px] sm:text-[14px] text-[#4D4D4F]">
           Copyright &copy; 2022 Eternity Earn, All rights Reserved
         </p>
         <div className="flex sm:space-x-4 space-x-1">

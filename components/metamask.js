@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { AiOutlinePlus } from "react-icons/ai";
 import { FaRegKeyboard } from "react-icons/fa";
+import { IoIosArrowRoundForward } from "react-icons/io";
 import PlusBg from "./../public/plus-bg.svg";
 import keyboard from "./../public/keyboard.svg";
 import circle from "./../public/circle.svg";
@@ -13,7 +14,7 @@ const Metamask = () => {
         <h1 className="text-center text-[20px] sm:text-3xl xl:text-4xl font-bold">
           How to Add Cronos to MetaMask
         </h1>
-        <p className="text-center py-4 text-[12px] sm:text-base lg:text-lg xl:text-xl">
+        <p className="text-center py-4 text-[12px] sm:text-base lg:text-lg xl:text-xl text-[#4D4D4F]">
           Before interacting with the Eternity Earn Dapp, you mush add the Cronos Chain to MetaMask or Trush Wallet. Below are instructions on how to add Cronos.
         </p>
       </div>
@@ -57,29 +58,29 @@ const Metamask = () => {
           <div className="text-center space-y-4">
             <p className="font-semibold">Step 2</p>
             <h3 className="font-semibold">Fill in Textfields</h3>
-            <p className="text-[10px] sm:text-base">
-              Fill in the paramerters for the Cronos Mainnet Network
+            <p className="text-sm sm:text-base">
+              Fill in the paramerters for the <span className="text-[#4D4D4F]">Cronos Mainnet Network</span>
             </p>
           </div>
           <div className="space-y-2">
             <p className="text-sm font-semibold">
-              Name : <span className="text-gray-600">Cronos Chain</span>
+              Name : <span className="text-[#4D4D4F]">Cronos Chain</span>
             </p>
             <p className="text-sm font-semibold">
               New RPC URL :{" "}
-              <span className="text-gray-600">
+              <span className="text-[#4D4D4F]">
                 https://rpc.artemisone.org/cronos
               </span>
             </p>
             <p className="text-sm font-semibold">
-              Chain-ID : <span className="text-gray-600">25</span>
+              Chain-ID : <span className="text-[#4D4D4F]">25</span>
             </p>
             <p className="text-sm font-semibold">
-              Symbol : <span className="text-gray-600">CRO</span>
+              Symbol : <span className="text-[#4D4D4F]">CRO</span>
             </p>
             <p className="text-sm font-semibold">
               Book Explorer URL :{" "}
-              <span className="text-gray-600">https://cronoscan.org</span>
+              <span className="text-[#4D4D4F]">https://cronoscan.org</span>
             </p>
           </div>
         </div>

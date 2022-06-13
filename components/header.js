@@ -13,7 +13,7 @@ const Header = () => {
           Passive Income
           <br /> is <span className="text-[#2A85FF]">Relaxing</span>
         </h1>
-        <p className="text-base w-full md:w-11/12">
+        <p className="text-base w-full md:w-11/12 text-[#4D4D4F]">
           Tired of looking at charts and stressing over the next red candle?
           Worrried your latest Defi invesment could get explioted or rug pulled?
           With Eternity Earn, you can sit back, relax and let the contract do

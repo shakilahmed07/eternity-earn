@@ -7,11 +7,11 @@ const Adventure = () => {
         <p className="text-xl xl:text-2xl font-semibold text-center ">
           START YOUR AVDENTURE
         </p>
-        <h2 className="text-3xl sm:text-5xl xl:text-6xl font-extrabold sm:font-bold text-center ">
+        <h2 className="text-3xl sm:text-5xl xl:text-6xl font-bold text-center ">
           Still Not Convinced? <br /> Take a test drive for less than a cup of
           coffee.
         </h2>
-        <p className="text-base sm:text-xl font-light text-center ">
+        <p className="text-base sm:text-xl font-light text-center text-[#4D4D4F]">
           There in no minimum invesment so deposit just a few $CRO and learn why Eternity Earn is different!
         </p>
       </div>

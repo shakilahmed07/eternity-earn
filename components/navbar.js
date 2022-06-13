@@ -11,12 +11,12 @@ const Navbar = () => {
             <Image
               src={EternityLogo}
               alt="Eternity Earn"
-              height={40}
-              width={60}
+              height={70}
+              width={75}
             />
           </div>
           <div>
-            <h1 className="hidden sm:inline lg:inline xl:inline font-bold">
+            <h1 className="hidden sm:inline lg:inline xl:inline font-semibold text-[#000000]">
               Eternity Earn
             </h1>
           </div>

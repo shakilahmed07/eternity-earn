@@ -46,7 +46,7 @@ const Strategy = () => {
           <h1 className="pb-5 text-[40px] sm:text-[50px] text-center font-semibold">
             Strategy
           </h1>
-          <p className="text-center w-10/12 sm:w-8/12 lg:w-6/12 mx-auto">
+          <p className="text-center text-sm sm:w-8/12 lg:w-6/12 mx-auto text-[#4D4D4F]">
             Once $CRO deposit are locked in the Eternity Earn contract, users are ecouraged to compound their rewards sit days per week and then claim rewards on the seventy da (6:1). By following the recommended compound/claim schedule, the maximun daily rewards (up to 8%) can be achieved, allowing for a typical return on invesment within four to six weeks. All rewards are paid in $CRO tokens based on the total value locked (TVL) in the contract liquidity pool and activity during the day by other users of the system. The value of $CRO is also variable and can flucatuate with market conditions.
           </p>
         </div>
@@ -80,7 +80,7 @@ const Strategy = () => {
           </Swiper>
         </div>
         <div className="flex justify-center items-center">
-          <button className="m-auto bg-[#2A85FF] hover:text-[#000000] hover:bg-white hover:outline text-white px-5 py-3 rounded-lg font-bold">
+          <button className="m-auto bg-[#2A85FF] hover:text-[#000000] hover:bg-white hover:outline text-white px-8 py-[14px] rounded-xl font-semibold">
             Launch Dapp
           </button>
         </div>
