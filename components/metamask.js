@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { AiOutlinePlus } from "react-icons/ai";
 import { FaRegKeyboard } from "react-icons/fa";
-import { IoIosArrowRoundForward } from "react-icons/io";
+import { IoIosArrowRoundForward, IoIosArrowRoundDown } from "react-icons/io";
 import PlusBg from "./../public/plus-bg.svg";
 import keyboard from "./../public/keyboard.svg";
 import circle from "./../public/circle.svg";
@@ -15,7 +15,10 @@ const Metamask = () => {
           How to Add Cronos <br className="lg:hidden" /> to MetaMask
         </h1>
         <p className="text-center py-4 text-sm lg:text-lg xl:text-xl xl:w-6/12 xl:mx-auto text-[#4D4D4F]">
-          Before interacting with the Eternity Earn Dapp, you mush add the Cronos Chain to <br className="hidden sm:inline lg:inline xl:inline 2xl:inline" /> MetaMask or Trush Wallet. Below are instructions on how to add Cronos.
+          Before interacting with the Eternity Earn Dapp, you mush add the
+          Cronos Chain to{" "}
+          <br className="hidden sm:inline lg:inline xl:inline 2xl:inline" />{" "}
+          MetaMask or Trush Wallet. Below are instructions on how to add Cronos.
         </p>
       </div>
       <div className="flex items-center justify-center sm:space-x-8 space-x-4 my-[60px] px-[20px]">
@@ -32,7 +35,7 @@ const Metamask = () => {
         <div className="flex items-center justify-center">
           <Image src={circle} alt="" />
           <Image src={line} alt="" width={220} />
-          <Image src={circle} alt=""  />
+          <Image src={circle} alt="" />
         </div>
         <div className="flex items-center justify-center">
           <Image
@@ -50,8 +53,15 @@ const Metamask = () => {
         <div className="text-center space-y-4 pr-[40px]">
           <p className="font-semibold">Step 1</p>
           <h3 className="font-semibold">Add Network</h3>
-          <p className="text-[10px] sm:text-base">
-            Click on Setting Networks Add Networks
+          <p className="text-[12px] flex flex-col sm:flex-row items-center">
+            <span className="text-[#4D4D4F]">Click on</span>
+            <IoIosArrowRoundDown className="sm:hidden" />
+            <IoIosArrowRoundForward className="hidden sm:inline" /> Setting
+            <IoIosArrowRoundDown className="sm:hidden" />
+            <IoIosArrowRoundForward className="hidden sm:inline" />{" "}
+            Networks
+            <IoIosArrowRoundDown className="sm:hidden" />
+             <IoIosArrowRoundForward className="hidden sm:inline" /> Add Networks
           </p>
         </div>
         <div className="space-y-6">
@@ -59,7 +69,8 @@ const Metamask = () => {
             <p className="font-semibold">Step 2</p>
             <h3 className="font-semibold">Fill in Textfields</h3>
             <p className="text-sm sm:text-base">
-              Fill in the paramerters for the <span className="text-[#4D4D4F]">Cronos Mainnet Network</span>
+              Fill in the paramerters for the{" "}
+              <span className="text-[#4D4D4F]">Cronos Mainnet Network</span>
             </p>
           </div>
           <div className="space-y-2">
