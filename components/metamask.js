@@ -14,7 +14,7 @@ const Metamask = () => {
         <h1 className="text-center text-2xl sm:text-3xl xl:text-5xl font-bold">
           How to Add Cronos <br className="lg:hidden" /> to MetaMask
         </h1>
-        <p className="text-center py-4 text-sm lg:text-lg xl:text-xl xl:w-6/12 xl:mx-auto text-[#4D4D4F]">
+        <p className="text-center py-4 text-sm lg:text-base text-[#4D4D4F]">
           Before interacting with the Eternity Earn Dapp, you mush add the
           Cronos Chain to{" "}
           <br className="hidden sm:inline lg:inline xl:inline 2xl:inline" />{" "}
@@ -51,9 +51,9 @@ const Metamask = () => {
 
       <div className="flex justify-center my-[60px]">
         <div className="text-center space-y-4 pr-[40px]">
-          <p className="font-semibold">Step 1</p>
+          <p className="font-semibold text-center">Step 1</p>
           <h3 className="font-semibold">Add Network</h3>
-          <p className="text-[12px] flex flex-col sm:flex-row items-center">
+          <p className="text-[12px] sm:text-base flex flex-col sm:flex-row items-center">
             <span className="text-[#4D4D4F]">Click on</span>
             <IoIosArrowRoundDown className="sm:hidden" />
             <IoIosArrowRoundForward className="hidden sm:inline" /> Setting
@@ -66,30 +66,30 @@ const Metamask = () => {
         </div>
         <div className="space-y-6">
           <div className="text-center space-y-4">
-            <p className="font-semibold">Step 2</p>
+            <p className="font-semibold text-center">Step 2</p>
             <h3 className="font-semibold">Fill in Textfields</h3>
-            <p className="text-sm sm:text-base">
+            <p className="text-[14px] sm:text-base">
               Fill in the paramerters for the{" "}
               <span className="text-[#4D4D4F]">Cronos Mainnet Network</span>
             </p>
           </div>
           <div className="space-y-2">
-            <p className="text-sm font-semibold">
+            <p className="text-[12px] sm:text-base font-semibold">
               Name : <span className="text-[#4D4D4F]">Cronos Chain</span>
             </p>
-            <p className="text-sm font-semibold">
+            <p className="text-[12px] sm:text-base font-semibold">
               New RPC URL :{" "}
               <span className="text-[#4D4D4F]">
                 https://rpc.artemisone.org/cronos
               </span>
             </p>
-            <p className="text-sm font-semibold">
+            <p className="text-[12px] sm:text-base font-semibold">
               Chain-ID : <span className="text-[#4D4D4F]">25</span>
             </p>
-            <p className="text-sm font-semibold">
+            <p className="text-[12px] sm:text-base font-semibold">
               Symbol : <span className="text-[#4D4D4F]">CRO</span>
             </p>
-            <p className="text-sm font-semibold">
+            <p className="text-[12px] sm:text-base font-semibold">
               Book Explorer URL :{" "}
               <span className="text-[#4D4D4F]">https://cronoscan.org</span>
             </p>

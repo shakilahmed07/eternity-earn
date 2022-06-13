@@ -46,7 +46,7 @@ const Works = () => {
     <div className="max-w-7xl m-auto px-4 xl:px-0 pb-28">
       <div className="space-y-6">
         <h1 className="text-center text-4xl xl:text-5xl font-semibold">How it Works</h1>
-        <p className="text-center text-sm lg:text-base 2xl:w-6/12 2xl:mx-auto text-[#4D4D4F]">
+        <p className="text-center text-sm lg:text-base text-[#4D4D4F]">
           Eternity Earn is a $CRO miner rewards pool build on the Cronos Chain,
           the native blockchanin <br className="hidden sm:inline" /> of Crypto.com. When $CRO is deposited and
           locked into the decentralized application <br className="hidden sm:inline" /> (Dapp). you will begin
