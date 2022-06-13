@@ -74,16 +74,14 @@ const Works = () => {
                   height={windowSize.width < 768 ? 25 : 35}
                   alt=""
                 />
-                {i !== 0 && (
-                  <span className="absolute xs:block -top-[192px] sm:-top-28 md:-top-[110px] lg:top-auto left-auto lg:-left-10 w-3 h-3 rounded-full border-2 border-gray-400"></span>
+                 {i !== 0 && (
+                  <span className="absolute xs:block -top-[206px] sm:-top-28 md:-top-[110px] lg:top-auto left-auto lg:-left-10 w-3 h-3 rounded-full border border-gray-500"></span>
                 )}
-
                 {i !== 3 && (
-                  <span className="absolute xs:block -bottom-[86px] sm:-bottom-[85px] md:-bottom-[90px] lg:bottom-auto lg:-right-[120px] xl:-right-44  lg:w-16 xl:w-28 h-8 sm:h-8 md:h-10 lg:h-1 border-l-4 lg:border-l-0 2xl:border-l-0 md:border-t border-dashed border-gray-400"></span>
+                  <span className="absolute xs:block -bottom-[86px] sm:-bottom-[85px] md:-bottom-[90px] lg:bottom-auto lg:-right-[120px] xl:-right-44  lg:w-16 xl:w-28 h-[38px] sm:h-8 md:h-10 lg:h-1 border-l-4 lg:border-l-0 2xl:border-l-0 md:border-t border-dashed border-gray-400"></span>
                 )}
-
                 {i !== 3 && (
-                  <span className="absolute  xs:block lg:bottom-auto right-auto lg:-right-10 w-3 h-3 rounded-full border-2 border-gray-400"></span>
+                  <span className="absolute  xs:block -bottom-[110px] lg:bottom-auto right-auto lg:-right-10 w-3 h-3 rounded-full border border-gray-500"></span>
                 )}
               </div>
               <div className="w-10/12 lg:w-full lg:pt-20 flex flex-row md:items-baseline lg:items-center xl:items-center 2xl:items-center lg:flex-col gap-4 md:gap-16 lg:gap-0">
