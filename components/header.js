@@ -13,11 +13,11 @@ const Header = () => {
           Passive Income
           <br /> is <span className="text-[#2A85FF]">Relaxing</span>
         </h1>
-        <p className="text-base w-full md:w-11/12 text-[#4D4D4F]">
-          Tired of looking at charts and stressing over the next red candle?
-          Worrried your latest Defi invesment could get explioted or rug pulled?
+        <p className="text-sm md:w-11/12 text-[#4D4D4F]">
+          Tired of looking at charts and stressing over the next red candle? <br className="hidden sm:inline" />
+          Worrried your latest Defi invesment could get explioted or rug pulled? <br className="hidden sm:inline" />
           With Eternity Earn, you can sit back, relax and let the contract do
-          the work for you By depositing $CRO youll earn a passive daily return
+          the <br className="hidden sm:inline" /> work for you By depositing $CRO youll earn a passive daily return <br className="hidden sm:inline" />
           while you sleep eat walk the dog or speend time with the family.
         </p>
         <button className="bg-white outline outline-gray-200 text-black px-[11px] py-[6px] lg:px-[12px] xl:px-[12px] lg:py-2 xl:py-2 rounded-md font-bold">

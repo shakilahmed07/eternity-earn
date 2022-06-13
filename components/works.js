@@ -46,13 +46,13 @@ const Works = () => {
     <div className="max-w-7xl m-auto px-4 xl:px-0 pb-28">
       <div className="space-y-6">
         <h1 className="text-center text-4xl xl:text-5xl font-semibold">How it Works</h1>
-        <p className="text-center text-sm sm:text-lg lg:text-xl 2xl:w-6/12 2xl:mx-auto text-[#4D4D4F]">
+        <p className="text-center text-sm lg:text-base 2xl:w-6/12 2xl:mx-auto text-[#4D4D4F]">
           Eternity Earn is a $CRO miner rewards pool build on the Cronos Chain,
-          the native blockchanin of Crypto.com. When $CRO is deposited and
-          locked into the decentralized application (Dapp). you will begin
-          earning real-time rewards, up to 8% daily, in the form of $CRO that
+          the native blockchanin <br className="hidden sm:inline" /> of Crypto.com. When $CRO is deposited and
+          locked into the decentralized application <br className="hidden sm:inline" /> (Dapp). you will begin
+          earning real-time rewards, up to 8% daily, in the form of $CRO that <br className="hidden sm:inline" />
           you can compound (reinvest) or claim (withdraw). There in no secondary
-          token to purchase or stake, making Eternity Earn a sample way to
+          token to purchase <br className="hidden sm:inline" /> or stake, making Eternity Earn a sample way to
           participate in crypto DeFi.
         </p>
       </div>
@@ -83,7 +83,7 @@ const Works = () => {
                 )}
 
                 {i !== 3 && (
-                  <span className="absolute  xs:block -bottom-[120px] lg:bottom-auto right-auto lg:-right-10 w-3 h-3 rounded-full border-2 border-gray-400"></span>
+                  <span className="absolute  xs:block lg:bottom-auto right-auto lg:-right-10 w-3 h-3 rounded-full border-2 border-gray-400"></span>
                 )}
               </div>
               <div className="w-10/12 lg:w-full lg:pt-20 flex flex-row md:items-baseline lg:items-center xl:items-center 2xl:items-center lg:flex-col gap-4 md:gap-16 lg:gap-0">

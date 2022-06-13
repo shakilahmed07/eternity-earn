@@ -6,6 +6,8 @@ import {
   FaFacebook,
   FaInstagram,
 } from "react-icons/fa";
+import Gate from "../public/gate.svg"
+import Image from "next/image"
 
 import { AiOutlineCopyright } from "react-icons/ai";
 
@@ -20,8 +22,11 @@ const Footer = () => {
           {/* <Image src={Copyright} fill="red" /> */}
           <AiOutlineCopyright className="h-[15px] w-[15px] sm:h-[25px] sm:w-[25px] text-[#8A8C8E] hover:text-[#0069F6] cursor-pointer" />
           <FaTelegramPlane className="h-[15px] w-[15px] sm:h-[25px] sm:w-[25px] text-[#8A8C8E] hover:text-[#0069F6] cursor-pointer" />
-          <FaTwitter className="h-[15px] w-[15px] sm:h-[25px] sm:w-[25px] text-[#1a4672] hover:text-[#0069F6] cursor-pointer" />
+          <FaTwitter className="h-[15px] w-[15px] sm:h-[25px] sm:w-[25px] text-[#8A8C8E] hover:text-[#0069F6] cursor-pointer" />
           <FaDiscord className="h-[15px] w-[15px] sm:h-[25px] sm:w-[25px] text-[#8A8C8E] hover:text-[#0069F6] cursor-pointer" />
+          <div className="h-[15px] w-[15px] sm:h-[25px] sm:w-[25px] flex">
+          <Image src={Gate} />
+          </div>
           <FaFacebook className="h-[15px] w-[15px] sm:h-[25px] sm:w-[25px] text-[#8A8C8E] hover:text-[#0069F6] cursor-pointer" />
           <FaInstagram className="h-[15px] w-[15px] sm:h-[25px] sm:w-[25px] text-[#8A8C8E] hover:text-[#0069F6] cursor-pointer" />
         </div>
