@@ -43,11 +43,19 @@ const Strategy = () => {
     <section className="bg-[#F4F5F6] py-28">
       <div className="max-w-7xl m-auto px-4 xl:px-0">
         <div className="">
-          <h1 className="pb-5 text-[40px] sm:text-[50px] text-center font-semibold">
+          <h1 className="pb-5 text-5xl sm:text-[50px] text-center font-semibold">
             Strategy
           </h1>
-          <p className="text-center text-sm sm:w-8/12 lg:w-6/12 mx-auto text-[#4D4D4F]">
-            Once $CRO deposit are locked in the Eternity Earn contract, users are ecouraged to compound their rewards sit days per week and then claim rewards on the seventy da (6:1). By following the recommended compound/claim schedule, the maximun daily rewards (up to 8%) can be achieved, allowing for a typical return on invesment within four to six weeks. All rewards are paid in $CRO tokens based on the total value locked (TVL) in the contract liquidity pool and activity during the day by other users of the system. The value of $CRO is also variable and can flucatuate with market conditions.
+          <p className="text-center text-sm w-10/12 sm:w-8/12 lg:w-6/12 mx-auto text-[#4D4D4F]">
+            Once $CRO deposit are locked in the Eternity Earn contract, users
+            are ecouraged to compound their rewards sit days per week and then
+            claim rewards on the seventy da (6:1). By following the recommended
+            compound/claim schedule, the maximun daily rewards (up to 8%) can be
+            achieved, allowing for a typical return on invesment within four to
+            six weeks. All rewards are paid in $CRO tokens based on the total
+            value locked (TVL) in the contract liquidity pool and activity
+            during the day by other users of the system. The value of $CRO is
+            also variable and can flucatuate with market conditions.
           </p>
         </div>
         <div className="py-[50px]">

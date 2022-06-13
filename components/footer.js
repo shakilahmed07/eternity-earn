@@ -20,7 +20,7 @@ const Footer = () => {
           {/* <Image src={Copyright} fill="red" /> */}
           <AiOutlineCopyright className="h-[15px] w-[15px] sm:h-[25px] sm:w-[25px] text-[#8A8C8E] hover:text-[#0069F6] cursor-pointer" />
           <FaTelegramPlane className="h-[15px] w-[15px] sm:h-[25px] sm:w-[25px] text-[#8A8C8E] hover:text-[#0069F6] cursor-pointer" />
-          <FaTwitter className="h-[15px] w-[15px] sm:h-[25px] sm:w-[25px] text-[#8A8C8E] hover:text-[#0069F6] cursor-pointer" />
+          <FaTwitter className="h-[15px] w-[15px] sm:h-[25px] sm:w-[25px] text-[#1a4672] hover:text-[#0069F6] cursor-pointer" />
           <FaDiscord className="h-[15px] w-[15px] sm:h-[25px] sm:w-[25px] text-[#8A8C8E] hover:text-[#0069F6] cursor-pointer" />
           <FaFacebook className="h-[15px] w-[15px] sm:h-[25px] sm:w-[25px] text-[#8A8C8E] hover:text-[#0069F6] cursor-pointer" />
           <FaInstagram className="h-[15px] w-[15px] sm:h-[25px] sm:w-[25px] text-[#8A8C8E] hover:text-[#0069F6] cursor-pointer" />

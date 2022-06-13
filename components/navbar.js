@@ -11,8 +11,8 @@ const Navbar = () => {
             <Image
               src={EternityLogo}
               alt="Eternity Earn"
-              height={70}
-              width={75}
+              height={50}
+              width={65}
             />
           </div>
           <div>

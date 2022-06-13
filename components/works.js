@@ -45,7 +45,7 @@ const Works = () => {
   return (
     <div className="max-w-7xl m-auto px-4 xl:px-0 pb-28">
       <div className="space-y-6">
-        <h1 className="text-center text-4xl font-semibold">How it Works</h1>
+        <h1 className="text-center text-4xl xl:text-5xl font-semibold">How it Works</h1>
         <p className="text-center text-sm sm:text-lg lg:text-xl 2xl:w-6/12 2xl:mx-auto text-[#4D4D4F]">
           Eternity Earn is a $CRO miner rewards pool build on the Cronos Chain,
           the native blockchanin of Crypto.com. When $CRO is deposited and

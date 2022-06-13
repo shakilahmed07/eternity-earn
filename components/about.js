@@ -2,9 +2,9 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="py-28 border-t-2">
+    <section className="py-16 border-t-2">
       <div className="max-w-7xl m-auto px-4 xl:px-0 flex items-center justify-between">
-        <div className="space-y-1">
+        <div className="space-y-4">
           <p className="text-gray-500 text-sm xs:text-base sm:text-lg md:text-xl font-semibold cursor-pointer">
             About
           </p>
@@ -12,7 +12,7 @@ const About = () => {
             Strategy
           </p>
         </div>
-        <div className="space-y-1">
+        <div className="space-y-4">
           <p className="text-gray-500 text-sm xs:text-base sm:text-lg md:text-xl font-semibold cursor-pointer">
             Rewards & Taxes
           </p>
@@ -20,7 +20,7 @@ const About = () => {
             Roadmap
           </p>
         </div>
-        <div className="space-y-1">
+        <div className="space-y-4">
           <p className="text-black text-sm xs:text-base sm:text-lg md:text-xl font-semibold cursor-pointer">
             Contact
           </p>

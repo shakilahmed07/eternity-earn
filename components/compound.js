@@ -10,10 +10,10 @@ const Compound = () => {
     <section className="py-28 bg-[#F4F5F6] 2x:h-[450px]">
       <div className="max-w-7xl m-auto px-4 xl:px-0 flex flex-col-reverse md:flex-row justify-center items-center">
         <div className="space-y-4">
-          <h1 className="text-2xl md:text-3xl lg:text-4xl font-semibold">
+          <h1 className="text-3xl lg:text-4xl font-semibold">
             Just Compound & Chill
           </h1>
-          <p className="text-sm lg:text-xl text-[#4D4D4F]">
+          <p className="text-base lg:text-xl text-[#4D4D4F]">
             We make crypto passinve income easy through our simple Dapp user interface and proven invesment strategy.
           </p>
           <div className="space-y-1">
@@ -47,7 +47,7 @@ const Compound = () => {
             </button>
           </div>
         </div>
-        <div className="">
+        <div className="flex flex-col items-center justify-center mb-10">
           <Image
             src={Mobile}
             width={windowSize.width < 1024 ? "400" : "800"}

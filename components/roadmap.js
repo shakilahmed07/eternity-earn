@@ -8,7 +8,7 @@ const Roadmap = () => {
     <div className="pt-20 pb-28 border-b">
       <div className="max-w-7xl m-auto px-4 xl:px-0 flex flex-col-reverse md:flex-row md:items-center">
         <div className="w-full md:w-4/12 lg:w-5/12 px-[35px] md:px-0 py-5 md:py-0">
-          <div className="space-y-2 py-[20px]">
+          <div className="space-y-4 py-[40px]">
             <p className="bg-[#9757D7] text-white w-11 text-center rounded-md font-bold py-1 ml-2">
               01
             </p>
@@ -34,7 +34,7 @@ const Roadmap = () => {
               </p>
             </div>
           </div>
-          <div className="space-y-2 py-[20px]">
+          <div className="space-y-4 py-[40px]">
             <p className="bg-[#EF466F] text-white w-11 text-center rounded-md font-bold py-1 ml-2">
               02
             </p>
@@ -62,7 +62,7 @@ const Roadmap = () => {
               <p className="text-[14px]">Certik and Rude Launge Audit</p>
             </div>
           </div>
-          <div className="space-y-2 py-[20px]">
+          <div className="space-y-4 py-[40px]">
             <p className="bg-[#46B36C] text-white w-11 text-center rounded-md font-bold py-1 ml-2">
               03
             </p>
@@ -90,8 +90,8 @@ const Roadmap = () => {
             </div>
           </div>
         </div>
-        <div className="w-full -ml-10 md:w-8/12 lg:w-7/12">
-          <Image src={Rocket} alt="" height={700} width={700} />
+        <div className="w-full  md:w-8/12 lg:w-7/12">
+          <Image src={Rocket} alt="" height={800} width={700} />
         </div>
       </div>
     </div>

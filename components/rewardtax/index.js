@@ -40,7 +40,7 @@ const RewardTax = () => {
   return (
     <div className="w-full py-28 border-b">
       <div className="max-w-7xl m-auto px-4 xl:px-0">
-        <h1 className="xl:text-[40px] sm:text-[30px] text-[24px] text-center font-semibold">
+        <h1 className="xl:text-5xl sm:text-[30px] text-[24px] text-center font-semibold">
           Refrral Rewards and Taxes
         </h1>
         <div className="grid gap-5 px-2 grid-cols-2 xl:grid-cols-4 pt-[50px]">
