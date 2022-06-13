@@ -31,7 +31,7 @@ const Metamask = () => {
         </div>
         <div className="flex items-center justify-center">
           <Image src={circle} alt="" />
-          <Image src={line} alt="" />
+          <Image src={line} alt="" width={220} />
           <Image src={circle} alt=""  />
         </div>
         <div className="flex items-center justify-center">
