@@ -75,25 +75,25 @@ const Works = () => {
                   alt=""
                 />
                  {i !== 0 && (
-                  <span className="absolute xs:block -top-[206px] sm:-top-28 md:-top-[110px] lg:top-auto left-auto lg:-left-10 w-3 h-3 rounded-full border border-gray-500"></span>
+                  <span className="absolute xs:block -top-[115px] sm:-top-[95px] md:-top-[90px] lg:top-auto left-auto lg:-left-10 w-3 h-3 rounded-full border border-gray-500"></span>
                 )}
                 {i !== 3 && (
-                  <span className="absolute xs:block -bottom-[86px] sm:-bottom-[85px] md:-bottom-[90px] lg:bottom-auto lg:-right-[120px] xl:-right-44  lg:w-16 xl:w-28 h-[38px] sm:h-8 md:h-10 lg:h-1 border-l-4 lg:border-l-0 2xl:border-l-0 md:border-t border-dashed border-gray-400"></span>
+                  <span className="absolute xs:block -bottom-[86px] sm:-bottom-[85px] md:-bottom-[85px] lg:bottom-auto lg:-right-[120px] xl:-right-44  lg:w-16 xl:w-28 h-[38px] sm:h-8 md:h-10 lg:h-1 border-l-4 lg:border-l-0 2xl:border-l-0 md:border-t border-dashed border-gray-400"></span>
                 )}
                 {i !== 3 && (
-                  <span className="absolute  xs:block -bottom-[110px] lg:bottom-auto right-auto lg:-right-10 w-3 h-3 rounded-full border border-gray-500"></span>
+                  <span className="absolute  xs:block -bottom-[105px] lg:bottom-auto right-auto lg:-right-10 w-3 h-3 rounded-full border border-gray-500"></span>
                 )}
               </div>
               <div className="w-10/12 lg:w-full lg:pt-20 flex flex-row md:items-baseline lg:items-center xl:items-center 2xl:items-center lg:flex-col gap-4 md:gap-16 lg:gap-0">
-                <div className="w-4/12 sm:w-3/12 lg:w-full text-center">
+                <div className="w-4/12 sm:w-3/12 lg:w-full text-center space-y-3">
                   <span className="text-sm md:text-base font-semibold">
                     Step {step}
                   </span>
-                  <h4 className="text-lg md:text-xl lg:text-2xl font-bold pt-4 lg:pt-8">
+                  <h4 className="text-sm md:text-base lg:text-xl font-semibold">
                     {title}
                   </h4>
                 </div>
-                <p className="w-8/12 sm:w-9/12 lg:w-full lg:pt-8 text-sm md:text-base text-left lg:text-center text-gray-500">
+                <p className="w-8/12 sm:w-9/12 lg:pt-8 text-sm md:text-base text-left lg:text-center text-gray-500">
                   {paragraph}
                 </p>
               </div>
