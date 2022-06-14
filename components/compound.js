@@ -39,7 +39,7 @@ const Compound = () => {
             </div>
           </div>
           <div className="flex items-center space-x-8 py-5">
-            <button className="bg-[#2A85FF] hover:text-[#000000] hover:bg-white hover:outline text-white px-[11px] py-[12px] lg:px-[12px] xl:px-[12px] lg:py-2 xl:py-2 rounded-md font-bold">
+            <button className="bg-[#2A85FF] hover:text-[#000000] hover:bg-white btn__outline text-white px-[11px] py-[12px] lg:px-[12px] xl:px-[12px] lg:py-2 xl:py-2 rounded-md font-bold">
               Launch Dapp
             </button>
             <button className="bg-white outline outline-gray-200 text-black px-[11px] py-[12px] lg:px-[12px] xl:px-[12px] lg:py-2 xl:py-2 rounded-md font-bold">

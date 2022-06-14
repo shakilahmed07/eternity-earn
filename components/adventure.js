@@ -15,7 +15,7 @@ const Adventure = () => {
           There in no minimum invesment so deposit just a few $CRO and learn why <br /> Eternity Earn is different!
         </p>
       </div>
-      <button className="bg-[#2A85FF] hover:text-[#000000] hover:bg-white hover:outline text-white px-[24px] py-[12px] rounded-xl font-bold">
+      <button className="bg-[#2A85FF] hover:text-[#000000] hover:bg-white btn__outline text-white px-[24px] py-[12px] rounded-xl font-bold">
         Launch Dapp
       </button>
     </div>

@@ -88,7 +88,7 @@ const Strategy = () => {
           </Swiper>
         </div>
         <div className="flex justify-center items-center">
-          <button className="m-auto bg-[#2A85FF] hover:text-[#000000] hover:bg-white hover:outline text-white px-8 py-[14px] rounded-xl font-semibold">
+          <button className="m-auto bg-[#2A85FF] hover:text-[#000000] hover:bg-white text-white px-8 py-[14px] rounded-xl font-semibold btn__outline">
             Launch Dapp
           </button>
         </div>

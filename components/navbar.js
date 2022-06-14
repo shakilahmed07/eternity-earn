@@ -29,9 +29,11 @@ const Navbar = () => {
         </div>
         <div className="flex space-x-4 lg:space-x-8 xl:space-x-8">
           <button className="font-semibold text-[#000000]">Whitepaper</button>
-          <button className="bg-[#2A85FF] hover:text-[#000000] hover:bg-white hover:outline text-white px-[11px] py-[6px] lg:px-[12px] xl:px-[12px] lg:py-2 xl:py-2 rounded-md font-bold">
+          <button className="bg-[#2A85FF] hover:text-[#000000] hover:bg-white btn__outline text-white px-[11px] py-[6px] lg:px-[12px] xl:px-[12px] lg:py-2 xl:py-2 rounded-lg font-semibold hover:font-bold">
             Launch Dapp
           </button>
+          {/* <button className="font-semibold text-[#000000]">Whitepaper</button>
+          <button className="btn__primary">Launch Dapp</button> */}
         </div>
       </div>
     </nav>

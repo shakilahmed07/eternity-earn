@@ -23,6 +23,18 @@ a {
   text-decoration: none;
 }
 
+.btn__primary {
+  @apply rounded-xl bg-blue-800 text-white px-5 py-2 font-semibold hover:bg-white hover:text-black border-2 border-blue-800 hover:border-[#dedede];
+}
+
+.btn__transparent {
+  @apply px-5 py-2 font-semibold;
+}
+
+.btn__outline {
+  @apply border-2 border-[#f3f3f3]  hover:border-[#8A8C8E];
+}
+
 
 .swiper-wrapper{
   @apply pb-6;
